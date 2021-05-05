@@ -1,0 +1,56 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.header {}
+
+.logo {}
+
+.l_top {}
+
+.l_text {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+}
+
+.menu {
+    margin-top: 15px;
+}
+.menu li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700 !important;
+    color: #8e8e8e !important;
+    padding: 0 15px !important;
+}
+.menu li a:hover {
+    color: #333 !important;
+}
+.btn-search {
+    color: #8e8e8e;
+}
+.btn-search:hover {
+    color: #333;
+}
+.btn-search:focus {
+    box-shadow: none;
+}
+
+.drop{
+    min-width: 350px;
+    top: 50px;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -316px;
+    margin-top: 0.125rem;
+}
+.bt{
+    background: transparent;
+    margin-top: 5px;
+}
