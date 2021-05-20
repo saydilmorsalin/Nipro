@@ -1,14 +1,58 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .navbar{
+        padding: 1px 0;
+    }
+    .l_text {
+    font-size: 23px;
+    
+}
+
     .menu {
         margin-left: -11px;
     }
+    .menu li a {
+    font-size: 14px;
+   
+}
+.navbar-toggler{
+    padding: 1px 3px;
+}
     .dropdown-menu[data-bs-popper] {
         left: 6px;
     }
     .drop{
         min-width: 296px;
     }
+    .c-middle {
+    bottom: 0%;
+    
+}
+    .c-middle h1{
+        margin-bottom: 2px !important;
+         font-size: 18px;
+    }
+    .c-middle p{
+
+         font-size: 14px;
+    }
+    .c-b-prev {
+    left: 59px;
+}
+.c-b-prev, .c-b-next {
+   font-size: 15px;
+    top: -248px;
+  
+    
+}
+.carousel-indicators {
+    left: 44px;
+    bottom: -18px;
+}
+.c-b-next {
+    left: 117px !important;
+}
+
   }
 
 /* Small devices (landscape phones, 576px and up) */
