@@ -1,7 +1,8 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .navbar{
-        padding: 1px 0;
+        padding: 10px 0;
+        transition: .3s;
     }
     .l_text {
     font-size: 23px;
@@ -15,21 +16,18 @@
     font-size: 14px;
    
 }
-.navbar-toggler{
-    padding: 1px 3px;
-}
-    .dropdown-menu[data-bs-popper] {
+ .dropdown-menu[data-bs-popper] {
         left: 6px;
     }
     .drop{
         min-width: 296px;
     }
     .c-middle {
-    bottom: 0%;
+    bottom: 20%;
     
 }
     .c-middle h1{
-        margin-bottom: 2px !important;
+        
          font-size: 18px;
     }
     .c-middle p{
@@ -37,11 +35,13 @@
          font-size: 14px;
     }
     .c-b-prev {
-    left: 59px;
+        left: 96px;
+    
 }
 .c-b-prev, .c-b-next {
    font-size: 15px;
-    top: -248px;
+   bottom: 842px;
+    
   
     
 }
@@ -50,7 +50,7 @@
     bottom: -18px;
 }
 .c-b-next {
-    left: 117px !important;
+    left: -409px;
 }
 
   }
