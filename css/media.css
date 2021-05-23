@@ -23,35 +23,69 @@
         min-width: 296px;
     }
     .c-middle {
-    bottom: 20%;
+    bottom: 5%;
     
 }
     .c-middle h1{
         
-         font-size: 18px;
+         /*font-size: 18px;*/
     }
     .c-middle p{
 
-         font-size: 14px;
+         /*font-size: 14px;*/
     }
+    .slider-button button{
+    width: 137px;
+    height: 30px;
+}
     .c-b-prev {
         left: 96px;
     
 }
 .c-b-prev, .c-b-next {
-   font-size: 15px;
+   /*font-size: 15px;*/
    bottom: 842px;
     
   
     
 }
 .carousel-indicators {
-    left: 44px;
+    left: 53px;
     bottom: -18px;
 }
 .c-b-next {
-    left: -409px;
+    left: -395px;
 }
+ .service{
+    padding-bottom: 36px;
+  }
+   .service-top{
+
+    padding-bottom: 50px;
+   }
+.single{
+     
+        margin-bottom: 45px;
+        border-radius: 10px;
+    }
+    .about{
+    padding: 0  0 40px ;
+    text-align: center;
+   
+  }
+      .about-content{
+        margin: 0;
+  }
+   .about-content h1{
+    padding-top: 30px;
+   }
+  .about-content p{
+    padding:0;
+  }
+  .about-content button{
+  height: 40px;
+  
+  }
 
   }
 

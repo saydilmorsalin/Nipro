@@ -67,7 +67,7 @@
 
 /* slider start */
 .slider{
-   padding-bottom: 30px;
+   padding-bottom: 10px;
 }
 .slider-button button{
     width: 140px;
@@ -92,6 +92,7 @@
     position: absolute; 
     top: auto;
     bottom: -51px;
+    text-transform: uppercase;;
  
 }
 .c-b-prev:hover{
@@ -101,18 +102,18 @@
     color: #333;
 }
 .c-b-prev {
-    left: 207px;
+    left: 209.4px;
     
 }
 .c-b-next{
 
     right: auto;
-    left: -1085px;
+    left: -1071px;
 }
 .carousel-indicators{
     right: auto;
     bottom: -8px;
-    left: 37px;
+    left: 47px;
     
     
 }
@@ -130,3 +131,97 @@
 
 
 /* slider end */
+  /*service start*/
+  .service{
+    padding-bottom: 100px;
+  }
+   /*top start*/
+   .service-top{
+    text-align: center;
+    padding-bottom: 93px;
+   }
+   .line{
+    margin: 0 auto;
+   border: 1px solid #333333;
+   width: 1px;
+   height: 50px;
+   }
+   .c-title{
+    font-size: 30px;
+      padding-bottom: 12px;
+   }
+   .service-top p{
+    font-size: 16px;
+    color: #8e8e8e;
+   }
+   /*top end*/
+    /*bottom start*/
+    .service-bottom{}
+    /*single item start*/
+    .single{
+        border: 1px solid  #8e8e8e;
+        padding-bottom: 28px;
+    }
+    .single i{
+        background-color: white;
+        padding: 0 10px;
+        margin-top: -22px;
+        font-size: 60px;
+        color: #8e8e8e;
+    }
+    .single h1{
+            padding-top: 20px;
+
+        font-family: 'Lato', sans-serif;
+         font-size: 18px;
+        font-weight: 700;
+        color: #333333;
+    }
+    .single hr{
+        width: 50px;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+    .single p{
+            padding: 9px 7px;
+        color: #8e8e8e;
+    }
+    .single button{
+         text-transform: uppercase;
+        font-weight: 500;
+        background-color: white;
+        border: none;
+           color: #8e8e8e;
+    }
+    .single button i{
+        font-size: 16px;
+        font-weight: 400 !important;
+        margin-left:-2px;
+    }
+    /*single item end*/
+    /*bottom end*/
+  /*service end*/
+
+  /*About start*/
+  .about{
+    padding: 30px 116px 120px;
+    /*padding-bottom: 40px;*/
+  }
+  .about img{}
+  .about-content{
+        margin-left: 57px;
+        margin-top: -7px;
+  }
+  .about-content h1{}
+  .about-content p{
+    padding-bottom: 14px;
+       color: #8e8e8e;
+  }
+  .about-content button{
+    margin-top: 17px;
+    border: 1px solid;
+
+  }
+  /*About end*/
+  /*porfolio start*/
+  /*porfolio end*/
